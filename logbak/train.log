@@ -1,0 +1,23 @@
+2017-11-02 11:19:37,735 - log\train.log - INFO - model_type     :	idcnn
+2017-11-02 11:19:37,735 - log\train.log - INFO - num_chars      :	2677
+2017-11-02 11:19:37,736 - log\train.log - INFO - char_dim       :	100
+2017-11-02 11:19:37,736 - log\train.log - INFO - num_tags       :	51
+2017-11-02 11:19:37,736 - log\train.log - INFO - seg_dim        :	20
+2017-11-02 11:19:37,736 - log\train.log - INFO - lstm_dim       :	100
+2017-11-02 11:19:37,737 - log\train.log - INFO - batch_size     :	20
+2017-11-02 11:19:37,737 - log\train.log - INFO - emb_file       :	D:\code\python\cner\bk\NER_IDCNN_CRF\NER_IDCNN_CRF\data\vec.txt
+2017-11-02 11:19:37,737 - log\train.log - INFO - clip           :	5
+2017-11-02 11:19:37,737 - log\train.log - INFO - dropout_keep   :	0.5
+2017-11-02 11:19:37,738 - log\train.log - INFO - optimizer      :	adam
+2017-11-02 11:19:37,738 - log\train.log - INFO - lr             :	0.001
+2017-11-02 11:19:37,738 - log\train.log - INFO - tag_schema     :	iobes
+2017-11-02 11:19:37,739 - log\train.log - INFO - pre_emb        :	True
+2017-11-02 11:19:37,739 - log\train.log - INFO - zeros          :	True
+2017-11-02 11:19:37,739 - log\train.log - INFO - lower          :	False
+2017-11-02 11:19:52,619 - log\train.log - INFO - Created model with fresh parameters.
+2017-11-02 11:19:59,225 - log\train.log - INFO - Load pre-trained embedding.
+2017-11-02 11:19:59,225 - log\train.log - INFO - start training
+2017-11-02 11:20:35,156 - log\train.log - INFO - iteration:1 step:100/5061, NER loss:92.504150
+2017-11-02 11:21:12,172 - log\train.log - INFO - iteration:1 step:200/5061, NER loss:51.103905
+2017-11-02 11:21:49,627 - log\train.log - INFO - iteration:1 step:300/5061, NER loss:36.866173
+2017-11-02 11:22:18,314 - log\train.log - INFO - iteration:1 step:400/5061, NER loss:23.815266
